@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/simpleledger/simple-slp-faucet#readme",
   "dependencies": {
+    "@psf/bch-js": "^4.18.4",
+    "bignumber.js": "^9.0.1",
     "bitbox-sdk": "8.1.0",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.4",
@@ -26,7 +28,6 @@
     "express": "^4.15.3",
     "express-session": "^1.17.0",
     "request": "^2.81.0",
-    "slpjs": "^0.17.0",
     "tor-test": "^0.2.1",
     "typescript": "^3.8.3"
   },
